@@ -1,0 +1,36 @@
+body {
+	background: url(../images/fallbg.jpg);
+	background-size: cover;
+	background-repeat: repeat-y;
+	box-sizing: border-box;
+}
+h1, h2, h3 {
+	color: darkgreen;
+	line-height: .7em;
+	font-family: "Comic Sans MS";
+}
+#container {
+	width: 50em;
+	margin: 1em auto;
+	border: outset thick darkgreen;
+	background-color: rgba(255,255,255,.9);
+	padding: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#gallery {
+	text-align: center;
+}
+#lgPic {
+	border: thick groove darkgreen;
+	width: 320px;
+}
+#cameo {
+	position: relative;
+	top: -20px;
+	left: 30px;
+}
+#thumbs img {
+	box-sizing: border-box;
+	padding: 5px;
+	margin: 5px;
+}
